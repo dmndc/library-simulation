@@ -10,10 +10,24 @@ body {
 
 .container {
   width: 80vw;
-  max-width: 800px;
-  height: 80vh;
+  max-width: 800px;  
   margin: 0 auto;
   margin-top: 50px;
   padding: 15px;
   background-color: #C6B38E;
+  border-radius: 10px;
+}
+
+.title {
+  font-family: 'Alegreya', serif;  
+  font-color: #4E1E29;
+  text-transform: uppercase;
+}
+
+.back-button {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.2rem;
+  margin-left: 40px;
+  text-transform: none;
+
 }

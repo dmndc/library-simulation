@@ -1,0 +1,9 @@
+.book-details {
+  width: 80%;
+  margin: 20px auto;
+  background-color: #FBFFE6;
+  border: 1px solid black;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-around;
+}
