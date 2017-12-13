@@ -1,9 +1,19 @@
 .book-details {
   width: 80%;
   margin: 20px auto;
+  padding: 15px;
   background-color: #FBFFE6;
   border: 1px solid black;
   border-radius: 10px;
   display: flex;
   justify-content: space-around;
+}
+
+.info {
+  flex: 2;
+  padding-left: 15px;
+}
+
+.book-cover {
+  height: 250px;
 }
