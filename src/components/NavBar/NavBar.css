@@ -1,0 +1,38 @@
+nav {
+  background-color: black;
+  display: flex;
+  align-items: center;
+}
+
+.navigation {
+  flex:  1;
+}
+
+.navigation li {
+  font-family: 'Alegreya', serif;  
+  color: #C6B38E;
+  text-transform: uppercase;
+  font-size: 1.4rem;
+  padding: 1em;
+  list-style: none;
+  display: inline;
+}
+
+.logo {
+  color: #C6B38E;
+  height: 60px;
+  padding: 0.3em;
+  margin-right: 1em;
+}
+
+.logout-link {
+  margin-right: 20px;
+  justify-content: flex-end;
+}
+
+.logout-link a {
+  color: #C6B38E; 
+  text-decoration: none;
+}
+
+
