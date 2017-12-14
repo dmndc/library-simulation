@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 
 import logo from '../../assets/logo.svg';
 
@@ -13,7 +14,7 @@ class NavBar extends Component {
         </div>
 
         <ul className="navigation">
-          <li>Browse</li>
+          <li><Link className="menu-link" to="/browse">Browse</Link></li>
           <li>Cart</li>
           <li>MyShelf</li>
         </ul>
