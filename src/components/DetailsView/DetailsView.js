@@ -19,15 +19,13 @@ class DetailsView extends Component {
     
     getBook(this.props.match.params.id).then( res => {
       this.setState({ book: res })
-      console.log(this.state.book[0].title);
+      console.log(this.state.book[0]);
     });
 
     
   }
 
   render() {
-    // console.log(this.state.params.id); 
-    
 
     return (
       <div>
