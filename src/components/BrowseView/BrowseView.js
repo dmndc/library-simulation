@@ -28,7 +28,7 @@ class BrowseView extends Component {
   render() {
     
     return (
-      <div>
+      <div className="browse">
 
         <h1 className="title">Browse Inventory</h1>
         {
@@ -54,6 +54,9 @@ class BrowseView extends Component {
             )
           })
         }
+        <div className="button">
+          <Link to="/add"><button className="btn add-button">+ Add New Book</button></Link>
+        </div>
       </div>
     )
   }
