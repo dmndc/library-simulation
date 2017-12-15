@@ -9,3 +9,10 @@ export function getBooksList() {
 export function getBook(id) {
   return axios.get(`${apiURL}/api/book/${id}`).then( res => res.data );  
 }
+
+export function addBook(book) {
+  console.log('OVO JE TVOJ OBJEKT: ', book);
+  return axios.post(`${apiURL}/api/book/`, book)
+    .then( res => console.log('Evo druze: ', res.data) )
+    .catch(console.log);
+}
